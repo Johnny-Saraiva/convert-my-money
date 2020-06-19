@@ -62,6 +62,17 @@ form div input {
   margin-bottom: 8px;
 }
 
+form div h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+form div h1 img {
+  margin-left: 16px;
+}
+
 form div button {
   background: #97FFAE;
   height: 56px;

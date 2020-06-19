@@ -1,8 +1,16 @@
 <%- include('header') %> 
-  <form action="">
+  <form method="GET" action="/exchange">
     <div>
-      <input placeholder="Dollar price" type="text">
-      <input placeholder="Dollar amount" type="text">
+      <h1>
+        Exchange rate
+        <img src="assets/real.svg" alt="Real">
+      </h1>
+      <input placeholder="Exchange rate" type="text" name="exchange" required>
+      <h1>
+        Dollar amount
+        <img src="assets/doll.svg" alt="Real">
+      </h1>
+      <input placeholder="Dollar amount" type="text" name="amount" required>
       <button>CONVERT</button>
     </div>
   </form>
