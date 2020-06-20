@@ -1,15 +1,27 @@
 <%- include('header') %> 
 <div class="content">
-  <h1>
-    US$: <%= amount %>
-    <img src="assets/real.svg" alt="Real">
-  </h1>
-  <h2>
-    <p>in Exchange Rate <%= exchange %> is:</p>
-  </h2>
-  <h1>
-    R$: <%= conversion%>
-    <img src="assets/doll.svg" alt="Real">
-  </h1>
+  <% if(error){ %>
+    <h1><%= error %></h1>
+
+    <h2>
+      <a href="/">Back to home</a>
+    </h2>
+  <% }else{ %>
+    <h1>
+      US$: <%= amount %>
+      <img src="assets/real.svg" alt="Real">
+    </h1>
+    <h2>
+      <p>in Exchange Rate <%= exchange %> is:</p>
+    </h2>
+    <h1>
+      R$: <%= conversion%>
+      <img src="assets/doll.svg" alt="Real">
+    </h1>
+
+    <h2>
+      <a href="/">Back to home</a>
+    </h2>
+  <% } %>
 </div>
 <%- include('footer') %> 

@@ -1,5 +1,5 @@
 const convert = (exexchangeRate, amount) => {
-  return parseFloat(exexchangeRate) * parseFloat(amount);
+  return exexchangeRate * amount;
 }
 
 const toMoney = valor => {

@@ -2,15 +2,15 @@
   <form method="GET" action="/exchange">
     <div>
       <h1>
-        Exchange rate
+        Dollar today
         <img src="assets/real.svg" alt="Real">
       </h1>
-      <input placeholder="Exchange rate" type="text" name="exchange" required>
+      <input placeholder="Exchange rate today" type="number" name="exchange" value="<%= exchangeRate %>" required>
       <h1>
         Dollar amount
         <img src="assets/doll.svg" alt="Real">
       </h1>
-      <input placeholder="Dollar amount" type="text" name="amount" required>
+      <input placeholder="Dollar amount" type="number" name="amount" required>
       <button>CONVERT</button>
     </div>
   </form>
