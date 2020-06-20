@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/Johnny-Saraiva/convert-my-money/issues"
   },
-  "homepage": "https://github.com/Johnny-Saraiva/convert-my-money#readme",
+  "homepage": "https://github.com/Johnny-Saraiva/convert-my-money/src/index.js",
   "dependencies": {
     "axios": "^0.19.2",
     "date-fns": "^2.14.0",
