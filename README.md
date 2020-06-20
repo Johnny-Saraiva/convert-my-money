@@ -40,6 +40,9 @@ This project was built with:
 -  [Node.js](https://nodejs.org/)
 -  [Express](https://expressjs.com/pt-br/)
 -  [EJS](https://www.npmjs.com/package/ejs)
+-  [Date-fns](https://date-fns.org/docs/Getting-Started)
+-  [Nodemon](https://nodemon.io/)
+-  [Jest](https://jestjs.io/docs/en/getting-started.html)
 -  [VS Code](https://code.visualstudio.com/)
 
 
