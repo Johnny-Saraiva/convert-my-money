@@ -9,7 +9,7 @@ const getToday = () => {
     if (today.getDay() === 6) {
       return format((today.setDate(today.getDate() -1 )), 'MM-dd-yyyy')
     } else if (today.getDay() === 0) {
-        return format((today.setDate(today.getDate() -1 )), 'MM-dd-yyyy')
+        return format((today.setDate(today.getDate() -2 )), 'MM-dd-yyyy')
     }
 }
 const getCotacao = ({ getToday, getUrl, getCotacaoAPI, extractCotacao }) => async() => {
